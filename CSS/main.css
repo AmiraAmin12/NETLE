@@ -1,0 +1,47 @@
+*{ box-sizing: border-box; margin: 0 auto; padding: 0;    }
+body{ background-color: black;  width: 1200px; height: 1500px; color: #fff;}
+/* start of hader section style*/
+.container {flex-flow: column wrap;}
+ /*NavBar style*/
+
+.container .nav-bar  {text-align: center;text-transform: uppercase; height:65px; margin-top: 10px; margin-bottom: -5px;
+     border-left: 12px solid #993e84; background-color: #2b2b2b;}
+.container .nav-bar  .spot   {margin: 25px 0 25px 70px; border-radius: 50%; width: 20px; background-color: #993e84;}
+.container .nav-bar span { margin: 25px  150px 25px 2px ; font-size: large; font-weight: bold;}
+.container .nav-bar ul { list-style: none; margin-top: 25px; margin-left: 130px; }
+.container .nav-bar ul li { display: inline;}
+.container .nav-bar ul li a { padding: 9px; color: #fff;   text-decoration: none;}
+/* slid*/
+.container .slider{height: 450px; background-image: url("../Images/slid6.jpg"); background-size: cover; background-position: center; }
+.container .slider .welcom  { padding-top: 100px ;  padding-left: 250px;}
+.container .slider .welcom  h2{ margin-left: 500px; text-transform: capitalize;} 
+/*feature*/
+.features {  justify-content: space-evenly; height: 360px; }
+.features .feet { width:30% ; height: 290px;  margin-top: -15px; }
+.features .feet .icon { width: 20%; margin: 25px auto; height: 20%; border: 1px solid #111; border-radius: 50%;}
+.features .feet .icon img { width: 32px; margin: 11px ;}
+
+.features .feet h3 { text-align: center; text-transform: capitalize;  margin-bottom: 11px;}
+.features  .sec1 {background-color:#c14000;}
+.features  .sec2 {background-color:#009987 ;}
+.features  .sec3 {background-color:#faa506 ;}
+/* BUSINESS*/
+
+.business .pic,.business .info {width: 50%; height: 350px; }
+.business .pic{background-image: url("../Images/slider2.jpg"); background-size: cover;}
+.business .info >p{  text-align: start; padding-left: 30px;}
+.business .info p:last-child{ margin-top: 15px;} 
+
+  /* PROJECTS*/  
+.project .intro{ margin-top: 80px; margin-bottom: 30px;}
+.project .intro h2{text-align: center; }
+.project .image-3 img{width: 33.3333333333333%;}
+.project .image-4 img{width: 25%;}
+.project button{ margin: 5% 42%;}
+/*common style*/
+.wide{width: 900px; margin: 0 auto; }
+h2{ padding: 30px; text-transform: capitalize; }
+p{ text-align: center; line-height: 1.6; }
+.dis-fl{ display:flex;flex-flow: row wrap;} 
+button { width: 160px; height: 55px;  margin: 30px; background-color: black; color: #fff;
+    text-transform: uppercase; font-size: larger; border: 2px solid #fff;}
